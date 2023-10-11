@@ -1,0 +1,44 @@
+.parent {
+    background-color: orange;
+    height: 500px;
+    border: 2px solid black;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* row, row-reverse,column,column-reverse */
+    /* flex-direction: column; */
+    /* flex-start,flex-end,center, space-between, space-around, space-evenly*/
+    /* justify-content: center; */
+    /* flex-start, flex-end, center, stretch, last baseline, first baseline */
+    /* align-items: flex-start; */
+    /* center, flex-end,stretch, flex-start,space-between, space-around */
+    /* align-content: stretch; */
+    /* row-gap: 50px; */
+    /* column-gap: 20px; */
+    gap: 50px;
+}
+
+.child {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* margin: 10px; */
+}
+
+
+/* .child-3 { 
+    padding-top: 40px;
+}*/
+
+.child-1 {
+    flex-grow: 1;
+}
+
+.child-2 {
+    flex-grow: 1;
+}
+
+.child-3 {
+    flex-grow: 1;
+}

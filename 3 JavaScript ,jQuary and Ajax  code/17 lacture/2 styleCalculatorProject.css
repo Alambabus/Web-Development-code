@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+
+.container {
+    border: 2px solid black;
+    width: 450px;
+    margin: 50px auto;
+    /*for center*/
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#screen {
+    display: block;
+    padding: 4px;
+    border: 2px solid black;
+    margin: 20px auto;
+    font-size: 1.4rem;
+}
+
+td {
+    height: 50px;
+    width: 73px;
+    transition: 100ms;
+    border: 1px solid black;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    /*point on button*/
+    font-size: 1.3rem;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td:active {
+    transform: scale(0.8);
+}

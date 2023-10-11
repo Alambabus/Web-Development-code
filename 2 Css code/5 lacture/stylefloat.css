@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid black;
+    width: 400px;
+    padding: 20px;
+}
+
+.div {
+    width: 400px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+.image {
+    width: 30%;
+    float: left;
+}
+
+.div1 p {
+    width: 60%;
+    float: right;
+}
+
+
+/* .clearfix {
+    clear: both;
+} */
+
+.div1::after {
+    content: "";
+    clear: both;
+    display: block;
+}

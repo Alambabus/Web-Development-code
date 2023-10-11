@@ -1,0 +1,115 @@
+/* ===========1 Decendent Combinator ===========*/
+
+
+/* div div span {
+    background-color: aquamarine;
+} */
+
+
+/* ===========2 Direct child ===========*/
+
+
+/* ul>li {
+    background-color: aquamarine;
+} */
+
+
+/* ===========3 immediate siblings =========== */
+
+
+/* li+li {
+    color: teal;
+} */
+
+
+/* ul+p {
+    color: brown;
+} */
+
+
+/*p+p {
+    color: chocolate;
+}*/
+
+
+/*p,
+div {
+    color: red;
+}*/
+
+
+/* =========== 4 general sibling ============*/
+
+li~li {
+    color: orange;
+}
+
+
+/* =========== Pseudo code & LVHA ===========*/
+
+
+/*.navbar {
+    border: 2px solid black;
+    background-color: black;
+}
+
+.nav-item:link {
+    color: white;
+    text-decoration: none;//Underline will remove from link
+}
+
+.nav-item {
+    margin: 0px 8px;
+}
+
+.nav-item:visited {
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: orange;
+    text-decoration: underline;
+}*/
+
+
+/*=============================================*/
+
+
+/* li:first-child {
+    background-color: aqua;
+} */
+
+
+/* li:last-child {
+    background-color: lightgreen;
+} */
+
+
+/* li:nth-child(3) {
+    background-color: rgb(115, 0, 255);
+} */
+
+
+/*li:nth-child(2n+3) {
+    background-color: plum;
+}*/
+
+
+/* ==================pseudo Element ================== */
+
+.phone::before {
+    content: "\01F4DE";
+}
+
+
+/*p::first-line {
+    color: crimson;
+}*/
+
+p::first-letter {
+    font-size: 20px;
+}
+
+input:focus {
+    background-color: yellow;
+}

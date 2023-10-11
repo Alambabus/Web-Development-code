@@ -1,0 +1,13 @@
+h1 {
+    color: red/*!important*/
+    ;
+    /* specificity of !important is high among all*/
+}
+
+#heading {
+    color: aqua;
+}
+
+.item {
+    color: black;
+}

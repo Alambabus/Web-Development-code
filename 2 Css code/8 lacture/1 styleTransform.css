@@ -1,0 +1,36 @@
+.container {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    font-size: 40px;
+    /*-------------------- rotate ---------------------------- */
+    /* transform: rotate(20deg); */
+    /* transform: rotateX(50deg); */
+    /* transform: rotateY(50deg); */
+    /* transform: rotateX(45deg) rotateY(45deg); */
+    /* ------------------- scale --------------------- */
+    /* transform: scale(2); */
+    /*---------------------- traslate ------------------------------*/
+    /* transform: translateX(80px); */
+    /* transform: translateY(200px); */
+    /* ------------------- skew ---------------------------*/
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+}
+
+.container:hover {
+    transform: translateY(80px);
+}
+
+.container-2 {
+    position: relative;
+    /* position: absolute; */
+    background-color: burlywood;
+    z-index: 2;
+}
+
+#special {
+    color: red;
+}

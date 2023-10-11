@@ -1,0 +1,37 @@
+ /*==============================Universal selector ========================*/
+ /* {
+     border: 2px dashed orange;
+     margin: 0;
+ }*/
+ /* =============================Element Selector========================================== */
+ 
+ h1 {
+     color: aqua;
+ }
+ /*External Css
+ p {
+     color: red;
+ }
+ */
+ /* ==================================id selector============================================= */
+ 
+ #special {
+     color: rgb(4, 28, 98);
+ }
+ /* ==================================class selector============================================== */
+ 
+ .green {
+     color: green;
+ }
+ /* =====================================atrribute selector======================================== */
+ 
+ a[href="http://www.google.com"] {
+     border: 2px solid black;
+     /* padding: 20px; */
+     background-color: black;
+     color: white;
+ }
+ 
+ input[type="password"] {
+     background-color: orange;
+ }

@@ -1,0 +1,51 @@
+h1,
+p,
+h2,
+h3,
+h4,
+h5 {
+    border: 2px solid black;
+}
+
+
+/*============ relative ===================*/
+
+h2 {
+    background-color: yellow;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+
+/* ============== absolute ================*/
+
+.parent {
+    position: relative;
+}
+
+h3 {
+    background-color: orange;
+    position: absolute;
+    top: 50px;
+}
+
+
+/* ============= sticky ================== */
+
+h4 {
+    background-color: green;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+/* ============= fixed ================== */
+
+h5 {
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}

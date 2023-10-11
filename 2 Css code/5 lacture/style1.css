@@ -1,0 +1,62 @@
+/*
+ div {
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+}
+*/
+
+
+/*
+  * {
+      margin: 0;
+      padding: 0;
+    }
+*/
+
+
+/*
+div {
+    border: 2px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+*/
+
+p {
+    font-size: 20px;
+}
+
+
+/*.learn-em li {
+    font-size: 2em;
+}*/
+
+div {
+    font-size: 14px;
+}
+
+html {
+    font-size: 20px;
+}
+
+.learn-em li {
+    font-size: 2em;
+}
+
+.learn-rem li {
+    font-size: 2rem;
+}
+
+.outer-container {
+    border: 2px solid red;
+    width: 50vw;
+    height: 50vh;
+    /* padding: 20px;*/
+}
+
+.inner-container {
+    border: 2px solid black;
+    width: 50%;
+    height: 30%;
+}
