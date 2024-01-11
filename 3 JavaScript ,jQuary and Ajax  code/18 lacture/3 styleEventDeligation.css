@@ -1,0 +1,16 @@
+.parent {
+    border: 2px solid black;
+    width: 80vw;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.child {
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 20px;
+    background-color: yellow;
+}
